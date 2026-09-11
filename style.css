@@ -1,16 +1,82 @@
 /* Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-  color: royalblue;
-  text-align: center;
-  background-color: bisque;
-  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  color: #333;
+  background-color: #fcfef8;
+  font-family: "Quicksand", sans-serif;
+  line-height: 1.6;
 }
 
 /* Typography */
+h1, h2, h3 {
+  font-family: "Playfair", serif;
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+h1 {
+  font-size: 50px;
+  margin: 0;
+}
+
+h2 {
+  font-size: 32px;
+  margin-bottom: 28px;
+  text-align: center;
+}
+
+h3 {
+  font-size: 22px;
+  margin: 12px 0;
+}
+
+p {
+  margin-bottom: 16px;
+}
 
 /* Links & Accents */
+a {
+  color: #4a6741;
+  font-weight: 900;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.accent {
+  color: #b5404f;
+}
 
 /* Images */
+img {
+  max-width: 100%;
+}
+
+/* Common Layout Elements */
+.header-content, .footer-content, main {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+header, footer {
+  text-align: center;
+  padding: 32px 16px;
+}
+
+header {
+  padding-top: 40px;
+}
+
+.tagline {
+  color: #5a5a5a;
+  letter-spacing: 1px
+}
 
 /* Hero Section */
 
